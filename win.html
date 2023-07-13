@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Congrats! You win the game</h1>
+    <script src="./game.js"></script>
+    <button id="click" class="button">TRY AGAIN</button>
+    <br>
+    <button id="reset">RESET</button>
+    </div>
+    <script>
+        var button=document.getElementById("click");
+        button.onclick=()=>{
+           location.href="./game.html";
+        }
+        var reset=document.getElementById("reset");
+        reset.onclick=()=>{
+            location.href="./index.html";
+        }
+    </script>
+</body>
+</html>
